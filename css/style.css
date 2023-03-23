@@ -8061,6 +8061,25 @@ textarea.form-control {
 .about-author .desc h3 {
   font-size: 20px; }
 
+@media (max-width: 1024px) {
+  .desc p {
+    font-size: 16px; 
+  }
+  .helper {
+     align-items: center;
+  }
+  
+    
+}
+
+@media (min-width: 1024px) {
+  
+  .helper {
+     align-items: center;
+  }
+    
+}
+
 .ftco-section {
   padding: 6em 1.8em;
   position: relative; }
